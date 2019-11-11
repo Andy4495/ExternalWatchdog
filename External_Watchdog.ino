@@ -1,5 +1,5 @@
 /* Watchdog Processor
- * https://gitlab.com/Andy4495/ExternalWatchdog
+ * https://github.com/Andy4495/ExternalWatchdog
 
    Sketch monitors one pin to see if it toggles within a certain
    threshold timer.
@@ -11,9 +11,9 @@
 
    LED flashes quickly (100ms on / 100ms off) when approaching timeout.
 
-   The sketch should run on any MSP430 chip. Since the compiled 
-   sketch requires less than 1200 byts of program space, it can 
-   be programmed on low end G2 chips like G2231 or G2201. 
+   The sketch should run on any MSP430 chip. Since the compiled
+   sketch requires less than 1200 byts of program space, it can
+   be programmed on low end G2 chips like G2231 or G2201.
 */
 
 int currentWD_pin_state;
