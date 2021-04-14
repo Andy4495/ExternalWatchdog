@@ -38,3 +38,10 @@ Defines the time (in ms) when a warning indicator is flashed to show that a watc
 
     reset_delay_ms
 Defines the time (in ms) that the reset line is held low.
+
+License
+-------
+The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
+
+[100]: https://choosealicense.com/licenses/mit/
+[101]: ./LICENSE.txt
