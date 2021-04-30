@@ -19,6 +19,7 @@ was easy to program, and used components from my spare parts pile.
 
 Usage
 -----
+
 The sketch has several definitions to configure the watchdog:
 
     LED_pin
@@ -41,7 +42,9 @@ Defines the time (in ms) that the reset line is held low.
 
 License
 -------
+
 The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
 
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
+[200]: https://github.com/Andy4495/ExternalWatchdog
