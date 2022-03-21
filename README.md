@@ -1,5 +1,7 @@
-External Watchdog
-=================
+# External Watchdog
+
+[![Arduino Compile Sketches](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/arduino-compile-sketches.yml)
+[![Check Markdown Links](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/CheckMarkdownLinks.yml)
 
 This Energia sketch implements a simple, independent watchdog that can be loaded
 onto a low-end MSP processor to provide a watchdog reset signal.
@@ -17,8 +19,7 @@ should be necessary, as there potentially are ways to solve this problem
 without using an external device. Regardless, in my case, this fit my needs,
 was easy to program, and used components from my spare parts pile.
 
-Usage
------
+## Usage
 
 The sketch has several definitions to configure the watchdog:
 
@@ -40,8 +41,7 @@ Defines the time (in ms) when a warning indicator is flashed to show that a watc
     reset_delay_ms
 Defines the time (in ms) that the reset line is held low.
 
-License
--------
+## License
 
 The software and other files in this repository are released under what is commonly called the [MIT License][100]. See the file [`LICENSE.txt`][101] in this repository.
 
