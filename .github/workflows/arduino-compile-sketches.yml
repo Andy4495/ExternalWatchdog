@@ -31,7 +31,7 @@ jobs:
           java-version: '17'
           java-package: 'jre'
       - run: | 
-          ls -l /usr/bin/java ; echo $JAVA_HOME
+          if [ ! -f /usr/bin/java ] ; then ln -s $JAVA_HOME/bin/java /usr/bin/java ; fi
       - uses: arduino/compile-sketches@v1
         with:
           fqbn: ${{ matrix.fqbn }}
