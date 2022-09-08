@@ -43,4 +43,4 @@ The software and other files in this repository are released under what is commo
 [2]: https://www.ti.com/product/MSP430G2201
 [100]: https://choosealicense.com/licenses/mit/
 [101]: ./LICENSE.txt
-[200]: https://github.com/Andy4495/ExternalWatchdog
+[//]: # ([200]: https://github.com/Andy4495/ExternalWatchdog)
