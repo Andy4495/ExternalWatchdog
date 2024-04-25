@@ -24,7 +24,7 @@ Defines the output pin number used as an indicator to show that a watchdog reset
 Defines the input pin that is used to monitor the processor being watched. The device being watched needs to toggle this pin in under timeout_ms or else the External Watchdog will pull the reset line low.
 
     WD_reset_pin
-Defines the output pin that is used to reset the device being watched. Note that this pin is normally held in a high impedence state (INPUT) unless it is actively pulling the RESET line low after a watchdog timeout. This allows the reset line on the device being watched to be connected in a standard configuration which typically includes a pull-up resistor to Vcc.
+Defines the output pin that is used to reset the device being watched. Note that this pin is normally held in a high impedance state (INPUT) unless it is actively pulling the RESET line low after a watchdog timeout. This allows the reset line on the device being watched to be connected in a standard configuration which typically includes a pull-up resistor to Vcc.
 
     timeout_ms
 Defines the time (in ms) before a watchdog reset occurs.
