@@ -1,7 +1,7 @@
 # External Watchdog
 
 [![Arduino Compile Sketches](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/arduino-compile-sketches.yml/badge.svg)](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/arduino-compile-sketches.yml)
-[![Check Markdown Links](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/CheckMarkdownLinks.yml/badge.svg)](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/CheckMarkdownLinks.yml)
+[![Check Markdown Links](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/check-links.yml/badge.svg)](https://github.com/Andy4495/ExternalWatchdog/actions/workflows/check-links.yml)
 
 This sketch implements a simple, independent watchdog that can be loaded onto a low-end MSP processor to provide an external watchdog reset signal.
 
